@@ -86,7 +86,7 @@ NUMBER_DESCRIPTIONS: list[OverkizNumberDescription] = [
         native_max_value=100,
         entity_category=EntityCategory.CONFIG,
     ),
-    # WaterHeater: Expected Number Of Shower (2 - 4)
+    # WaterHeater: Expected Number Of Shower (1 - 5)
     OverkizNumberDescription(
         key=OverkizState.CORE_EXPECTED_NUMBER_OF_SHOWER,
         name="Expected number of shower",
