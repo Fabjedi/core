@@ -92,8 +92,8 @@ NUMBER_DESCRIPTIONS: list[OverkizNumberDescription] = [
         name="Expected number of shower",
         icon="mdi:shower-head",
         command=OverkizCommand.SET_EXPECTED_NUMBER_OF_SHOWER,
-        native_min_value=2,
-        native_max_value=4,
+        native_min_value=1,
+        native_max_value=5,
         entity_category=EntityCategory.CONFIG,
     ),
     # SomfyHeatingTemperatureInterface
